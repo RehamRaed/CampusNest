@@ -89,7 +89,7 @@ export default function AmenitiesSelection({
             ))
           ) : (
             <div className="px-3 py-2 text-sm text-gray-500">
-              No results for "{searchTerm}"
+              No results for {searchTerm}
             </div>
           )}
         </div>
