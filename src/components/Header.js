@@ -34,9 +34,12 @@ export default function Header() {
 
             <Icon name="Languages" />
 
-            <Button variant="orangeSolid" size="md">
-              <Link href="/auth/login">Login</Link>
-            </Button>
+          <Link href="/auth/login" className="hidden lg:block">
+  <Button variant="orangeSolid" size="md">
+    Login
+  </Button>
+</Link>
+
 
             <div className="lg:hidden">
               <button
