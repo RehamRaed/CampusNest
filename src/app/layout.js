@@ -1,5 +1,7 @@
 import { Inter } from "next/font/google";
-import Header from "@/components/Header"
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+
 import "./globals.css";
 
 const inter = Inter({
@@ -24,6 +26,7 @@ export default function RootLayout({ children }) {
        <body className={inter.variable}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

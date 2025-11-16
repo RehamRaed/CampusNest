@@ -20,7 +20,8 @@ import {
   Tag,
   Languages,
    Moon,
-   X
+   X,
+   ArrowLeft 
 } from "lucide-react";
 
 export const Icons = {
@@ -43,7 +44,8 @@ export const Icons = {
   Tag,
   Languages,
   Moon,
-  X
+  X,
+  ArrowLeft 
 };
 
 export default function Icon({

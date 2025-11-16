@@ -1,4 +1,3 @@
-import ReservationPage from "@/app/reservation/[id]/page";
 
 export const locations = [
   "Cairo",
