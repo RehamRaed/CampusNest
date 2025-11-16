@@ -37,8 +37,8 @@ export default function TestimonialsSlider() {
           </button>
 
           <div className={`flex gap-6 py-3 overflow-hidden w-[80%] md:w-[90%] lg:w-full justify-center transition-all duration-500`}>
-            {getVisibleSlides().map((item) => (
-              <TestimonialCard key={item.id} {...item} visibleCards={visibleCards} />
+            {getVisibleSlides().map((item, i) => (
+              <TestimonialCard key={item.id} {...item} visibleCards={visibleCards} index={i}  />
             ))}
           </div>
 
