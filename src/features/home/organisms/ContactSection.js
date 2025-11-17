@@ -8,7 +8,7 @@ import Button from "@/components/atoms/Button";
 export default function ContactSection() {
   return (
     <section className="flex justify-center px-4 sm:px-6 lg:px-8 my-20 ">
-      <div className=" mx-auto w-full max-w-[1200px] px-[15px]">
+      <div className="max-w-6xl mx-auto w-full max-w-[1200px] px-[15px]">
         <div className="mb-12">
           <h4 className="text-xl  text-center text-gray-600">Contact Us</h4>
           <h2 className="text-3xl md:text-4xl font-semibold text-center text-gray-700">
@@ -65,7 +65,7 @@ export default function ContactSection() {
               size="mdlg"
             >
               Send Message
-            </Button>
+            </button>
           </form>
         </div>
       </div>

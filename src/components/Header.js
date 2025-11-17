@@ -1,9 +1,9 @@
-"use client";
-import React, { useState } from "react";
+"use client"
 import Icon from "./atoms/Icon";
 import Link from "next/link";
 import useMenu from "@/hooks/useMenu";
 import Button from "./atoms/Button";
+import Image from "next/image";
 
 export default function Header() {
   const { menuOpen, toggleMenu, closeMenu } = useMenu();
@@ -11,8 +11,9 @@ export default function Header() {
   return (
     <>
       <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
-        <div className="w-[85%] md-w-[90%] h-[70px] mx-auto flex justify-between items-center py-4 ">
-          <div className="font-extrabold text-xl">CampusNest</div>
+        <div className="w-[90%] mx-auto px-1 md:px-4 h-[70px] flex justify-between items-center py-4 ">
+          <Image src="/images/logo.png" alt="logo-img" width={150} height={80}
+          />
 
           <nav className="hidden lg:flex gap-4">
             <Link href="/" className="hover:text-orange-400">
