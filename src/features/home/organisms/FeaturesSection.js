@@ -7,7 +7,7 @@ export default function FeaturesSection() {
       <div className="w-full max-w-[1200px] px-[15px]">
         <div className="mb-12 text-center">
           <h4 className="text-xl text-gray-600">Our Features</h4>
-          <h2 className="text-3xl md:text-4xl font-semibold text-gray-800">Why Choose Us</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold text-gray-700">Why Choose Us</h2>
                     <div className="w-[85px] h-[5px] rounded-full bg-[#fa822a]  my-1 mx-auto"></div>
 
         </div>

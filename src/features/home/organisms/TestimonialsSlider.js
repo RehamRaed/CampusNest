@@ -27,7 +27,7 @@ export default function TestimonialsSlider() {
       <div className="w-full max-w-[1200px] px-[15px]">
         <div className="mb-12">
           <h4 className="text-xl  text-center text-gray-600">What Students Say</h4>
-          <h2 className="text-3xl md:text-4xl font-semibold text-center text-gray-800">Our Testimonials</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold text-center text-gray-700">Our Testimonials</h2>
           <div className="w-[85px] h-[5px] rounded-full bg-[#fa822a]  my-1 mx-auto"></div>
         </div>
 
