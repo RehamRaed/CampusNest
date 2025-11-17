@@ -28,7 +28,6 @@ export default function TestimonialCard({
           height={80}
           className="rounded-full object-cover"
         />
-        
       </div>
       <h3 className="font-semibold text-gray-800 text-lg">{name}</h3>
       <p className="text-gray-500 text-sm">{role}</p>

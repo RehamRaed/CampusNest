@@ -7,7 +7,7 @@ export default function AboutSection() {
       <div className="max-w-[1200px] px-[15px] mx-auto">
         <div className="mb-12 text-center">
           <h4 className="text-xl text-gray-600">About Us</h4>
-          <h2 className="text-3xl md:text-4xl font-semibold text-gray-800">
+          <h2 className="text-3xl md:text-4xl font-semibold text-gray-700">
             Meet CampusNest
           </h2>
           <div className="w-[85px] h-[5px] rounded-full bg-[#fa822a]  my-1 mx-auto"></div>

@@ -7,7 +7,7 @@ export default function ContactInfoCard({ iconName , title, description }) {
         <Icon name={iconName} className="text-orange-400 text-2xl"/>
       </div>
       <div>
-        <h3 className="text-xl font-semibold text-gray-800">{title}</h3>
+        <h3 className="text-xl font-semibold text-gray-700">{title}</h3>
         <div className="text-gray-600">{description}</div>
       </div>
     </div>
