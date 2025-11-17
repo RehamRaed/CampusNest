@@ -3,12 +3,11 @@ import React from "react";
 import ContactInfoCard from "@/features/home/molecules/ContactInfoCard";
 import Input from "@/components/atoms/Input";
 import TextArea from '@/components/atoms/TextArea';
-import Button from "@/components/atoms/Button";
 
 export default function ContactSection() {
   return (
     <section className="flex justify-center px-4 sm:px-6 lg:px-8 my-20 ">
-      <div className=" mx-auto w-full max-w-[1200px] px-[15px]">
+      <div className="max-w-6xl mx-auto w-full max-w-[1200px] px-[15px]">
         <div className="mb-12">
           <h4 className="text-xl  text-center text-gray-600">Contact Us</h4>
           <h2 className="text-3xl md:text-4xl font-semibold text-center text-gray-800">Get In Touch</h2>
@@ -40,9 +39,9 @@ export default function ContactSection() {
             </div>
             <Input placeholder="Subject" />
             <TextArea placeholder="Message" />
-            <Button type="submit" className="font-bold max-sm:w-full" variant="orangeSolid" size="mdlg">
+            <button type="submit" className="bg-[#F5801D] hover:bg-[#ED740E] text-white font-bold px-8 py-3 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl">
               Send Message
-            </Button>
+            </button>
           </form>
         </div>
       </div>

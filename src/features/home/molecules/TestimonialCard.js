@@ -3,7 +3,7 @@ import Icon from '@/components/atoms/Icon';
 
 export default function TestimonialCard({ role, name, rating, image, text, visibleCards, index  }) {
   return (
-    <div className={`flex flex-col items-center text-center bg-white border border-gray-200 rounded-2xl shadow-md p-6 h-[300px] w-[90%] md:w-[300px] transition-all duration-500 ${
+    <div className={`flex flex-col items-center text-center bg-white border border-gray-200 rounded-2xl shadow-md p-6 h-[270px] w-[90%] md:w-[300px] transition-all duration-500 ${
       visibleCards === 3
         ? index === 1 ? 'scale-105 opacity-100' : 'scale-95 opacity-60'
         : 'scale-105 opacity-100'
