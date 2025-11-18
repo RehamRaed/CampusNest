@@ -19,13 +19,15 @@ import {
   MapPin,
   Tag,
   Languages,
-   Moon,
-   X,
-   ArrowLeft 
+  Moon,
+  X,
+  ArrowLeft,
+  DollarSign,
+  ChevronDown
 } from "lucide-react";
 
 export const Icons = {
- House,
+  House,
   Star,
   CheckCircle,
   Headset,
@@ -45,7 +47,10 @@ export const Icons = {
   Languages,
   Moon,
   X,
-  ArrowLeft 
+  ArrowLeft,
+  DollarSign,
+  ChevronDown
+
 };
 
 export default function Icon({
