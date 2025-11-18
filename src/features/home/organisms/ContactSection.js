@@ -7,7 +7,7 @@ import Button from "@/components/atoms/Button";
 
 export default function ContactSection() {
   return (
-    <section className="flex justify-center px-4 sm:px-6 lg:px-8 my-20 ">
+    <section id="contact-section" className="flex justify-center px-4 sm:px-6 lg:px-8 my-20 ">
       <div className=" mx-auto w-full max-w-[1200px] px-[15px]">
         <div className="mb-12">
           <h4 className="text-xl  text-center text-gray-600">Contact Us</h4>

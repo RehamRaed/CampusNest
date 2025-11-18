@@ -22,8 +22,8 @@ export default function Header() {
             <Link href="/explore" className="hover:text-orange-400">
               Explore
             </Link>
-            <Link href="/explore" className="hover:text-orange-400">
-              Explore
+            <Link href="/how-it-works" className="hover:text-orange-400">
+             How It Works
             </Link>
             <Link href="/explore" className="hover:text-orange-400">
               Explore
