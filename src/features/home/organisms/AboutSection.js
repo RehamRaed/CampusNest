@@ -4,7 +4,7 @@ import Button from "@/components/atoms/Button";
 export default function AboutSection() {
   return (
     <section className="px-4 sm:px-6 lg:px-8 my-20">
-      <div className="max-w-[1200px] mx-auto">
+      <div className="max-w-[1200px] px-[15px] mx-auto">
         <div className="mb-12 text-center">
           <h4 className="text-xl text-gray-600">About Us</h4>
           <h2 className="text-3xl md:text-4xl font-semibold text-gray-700">
