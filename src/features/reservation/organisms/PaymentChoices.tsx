@@ -5,9 +5,6 @@ import Button from "@/components/molecules/button/Button";
 import { formatPrice } from "@/utils/reservation";
 import { PaymentChoicesProps } from "@/features/reservation/types/reservation.types";
 
-/**
- * PaymentChoices expects basePrice to be a number > 0.
- */
 export default function PaymentChoices({
   basePrice,
   selectedOption,
